@@ -12,6 +12,14 @@
     background-repeat:no-repeat;
     background-size: cover;
 }
+.footer2{
+ 
+    height: 201px;
+    /* width: 100%; */
+    /* width: 150px; */
+    /* background-repeat:no-repeat;
+    background-size: cover; */
+}
 .border{
 border: 1px solid #B3DCFF;
 }
@@ -73,5 +81,37 @@ border: 1px solid #B3DCFF;
         background-size: cover;
     }
   }
-  
-  
+  @media (min-width: 360px) and (max-width: 360px) {
+    .footer1{
+        background-image: url(6.png);
+        height: 197px;
+        /* width: 100%; */
+        /* width: 150px; */
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1079px) {
+    .footer1{
+        background-image: url(6.png);
+        height: 190px;
+        /* width: 100%; */
+        /* width: 150px; */
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+  }
+  @media (min-width: 1080px) {
+    .footer1{
+        background-image: url(6.png);
+        height: 251px;
+        /* width: 100%; */
+        /* width: 150px; */
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+  }
+  /* *{
+      font-size: 14px;
+  }
+   */
